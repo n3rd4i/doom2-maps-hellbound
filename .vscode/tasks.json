@@ -29,7 +29,7 @@
 		{
 			"label": "clean",
 			"type": "shell",
-			"command": "del /s /q *.nupkg",
+			"command": "${command:chocolatey.delete}",
 		}
 	]
 }
